@@ -1,0 +1,9 @@
+<%- include("partials/header") %>
+<h1>Welcome to my homePage to <%= thing.toUpperCase() %> </h1>
+
+<% if(thing === "baby"){ %>
+    <p>welcome baby!</p>
+<% }else { %>
+    <p>welcome anybody!</p>
+<% } %>
+<%- include("partials/footer") %>
